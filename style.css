@@ -1,0 +1,120 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    position: sticky;
+    top:0;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 2-px 0px;
+}
+    
+.navbar ul{
+        display: flex;
+        list-style: n;
+        margin: 25px 0;
+    }
+
+.navbar ul li a{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}    
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+
+.navbar ul li a:hover{
+    color: white;
+}
+
+/* Home Section*/
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}
+#home::before{
+    content: "";
+    position: left;
+    top: 0;
+    right: 0;
+    background: url('jenyas.jpg') no-repeat center center/cover;
+    height: 400px;
+    width: 300px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    right: 25%;
+}
+.headings{
+    font-family: sans-serif;
+    font-size: 75px;
+}
+
+.heading{
+    font-family: sans-serif;
+    font-size: 40px; 
+    margin-bottom:10px 10px 10px 10px;
+}
+
+/* about section */
+
+#about{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+    background-color: lightgrey;
+}
+#intro h2{
+    font-size: 2rem;
+    margin-bottom:20px;
+    font-size: 40px; 
+}
+
+/* Portfolio Section */
+#portfolio{
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+.gallery img{
+    width: 460px;
+    height:340;
+    
+}
+
+/* Contact Section */
