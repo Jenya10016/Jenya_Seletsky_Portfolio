@@ -10,7 +10,7 @@ box-sizing: border-box;
     justify-content: center;
     align-items: center;
     background-color: gray;
-    position: sticky;
+    position: absolute;
     top:0;
 }
 .navbar ul{
@@ -45,31 +45,19 @@ box-sizing: border-box;
 /* Home Section*/
 #home{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-items: center;
 }
-#home::before{
-    content: "";
-    position: left;
-    top: 0;
-    right: 0;
-    background: url('jenyas.jpg') no-repeat center center/cover;
-    height: 400px;
-    width: 300px;
+.portpic{
+   height: 40vh; 
 }
+
 .main{
-    display: flex;
-    flex-direction: column;
-    border: 1px solid black;
-    align-items: center;
-    position: absolute;
-    top: 30%;
-    right: 25%;
+    flex-direction: row;
+    
 }
 .headings{
     font-family: sans-serif;
-    font-size: 75px;
+    font-size: 30px;
+    
 }
 
 .heading{
@@ -78,19 +66,24 @@ box-sizing: border-box;
     margin-bottom:10px 10px 10px 10px;
 }
 
+.name{
+    text-align: center;
+}
+
 /* about section */
 
 #about{
     display: flex;
     flex-direction: column;
     font-family: sans-serif;
+    background-color: lightgrey;s
 }
 #intro{
     display: flex;
     flex-direction: column;
     text-align: justify;
     padding: 10px;
-    background-color: lightgrey;
+    
 }
 #intro h2{
     font-size: 2rem;
@@ -118,3 +111,9 @@ box-sizing: border-box;
 }
 
 /* Contact Section */
+#contact{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: gray;
+}
