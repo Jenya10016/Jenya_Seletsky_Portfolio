@@ -140,5 +140,23 @@ box-sizing: border-box;
     flex-direction: column;
     box-sizing: border-box;
     align-items: center;
-    margin: 20px 0px;
+    margin: 10px 0px;
 }
+.input{
+    padding: 12px;
+    margin: 10px 0px;
+    width: 25%;
+}    
+#msg{
+    width: 20%;
+    padding: 10px;
+    margin: 15px;
+}    
+#send{
+    padding:10px;
+    width:10%;
+}
+#send:hover{
+    cursor: pointer;
+}
+   
