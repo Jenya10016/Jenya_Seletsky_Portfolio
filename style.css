@@ -90,6 +90,7 @@ box-sizing: border-box;
     flex-direction: column;
     font-family: sans-serif;
     background-color: lightgrey;
+    padding: 10px;
 }
 #intro{
     display: flex;
@@ -109,6 +110,8 @@ box-sizing: border-box;
     display: flex;
     flex-direction: column;
     background-color: gray;
+    font-family: sans-serif;
+    padding: 10px;
 }
 
 .gallery{
@@ -129,4 +132,13 @@ box-sizing: border-box;
     flex-direction: column;
     box-sizing: border-box;
     background-color: gray;
+    color: black;
+    padding: 10px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 20px 0px;
 }
